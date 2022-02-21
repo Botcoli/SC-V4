@@ -1046,10 +1046,10 @@ menu =
 ➪ *Murid premium :* _50.000_
 
 \`\`\`OPEN BUAT SC :\`\`\`
-➪ *Script Store :* _Hubungi owner_
-➪ *Script Biasa :* _Hubungi owner_
+➪ *Script Store :* _Hubungi owner wa.me/6281333603591_
+➪ *Script Biasa :* _Hubungi owner wa.me/6281333603591_
 Untuk yang mau beli script /  sc
-Bisa request jika minat silakan hubungi owner`
+Bisa request jika minat silakan hubungi owner wa.me/6281333603591`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
@@ -1058,7 +1058,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 gambar = fs.readFileSync('./media/sewa.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Gopay : _Silakan scan qr di atas_
+• Gopay : _Silakan scan qr di atas atau bisa chat owner wa.me/6281333603591_
 • Dana : _Tidak tersedia_
 • Ovo : _Tidak tesedia_
 • Pulsa : _Tidak tersedia_`
